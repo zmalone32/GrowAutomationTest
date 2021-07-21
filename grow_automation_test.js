@@ -26,7 +26,6 @@ describe('expand metric', () => {
         // click the "x" to leave the expanded view
         cy.get('.topBar---closeButton---2K74G > svg').click()
 
-
     // Test #D - Verify Dashboards
         // Click the gear icon to access settings
         cy.get('.settingsMenu---settingsIcon---3Uq6F').click()
